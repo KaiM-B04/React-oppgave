@@ -1,3 +1,9 @@
+/* :root {
+  background: url("/React-oppgave/public/anna-gru-omL9Q8B2YCI-unsplash.jpg")
+    no-repeat center fixed;
+  background-size: contain;
+} */
+
 .class-card-container {
   display: flex;
   flex-direction: column;
