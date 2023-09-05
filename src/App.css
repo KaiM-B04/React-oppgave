@@ -1,16 +1,55 @@
-/* :root {
-  background: url("/React-oppgave/public/anna-gru-omL9Q8B2YCI-unsplash.jpg")
-    no-repeat center fixed;
-  background-size: contain;
+:root {
+  background: url("./images/BG3_background.webp") center fixed no-repeat;
+  background-position: contain;
+  color: rgb(255, 255, 182);
+  background-color: rgb(22, 19, 39);
+  font-family: "Caudex", serif;
+  text-shadow: black 1px 2px 4px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+  max-width: 20rem;
+}
+
+.class-card {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 10px;
+  max-width: 20rem;
+  min-height: 35rem;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(
+    0.8turn,
+    rgb(19, 30, 80),
+    rgb(91, 106, 171),
+    rgb(19, 30, 80)
+  );
+  border-radius: 15px;
+  border: solid;
+  border-color: rgb(240, 223, 158);
+  border-width: 10px;
+  box-shadow: rgba(0, 0, 0, 0.795) 10px 10px 10px;
+}
+
+/* .class-card:hover {
+  cursor: pointer;
 } */
 
-.class-card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 1rem;
-  min-width: 200px;
+.subClass {
+  align-self: start;
+  padding: 20px 0;
+}
+
+.features {
+  align-self: start;
 }
 
 ul {
